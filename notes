@@ -1,0 +1,5 @@
+Nice trick to get rid of extra space below the footer when scrolling up:
+
+Set footer "position: sticky" in the css file.
+Set body background the same color as the footer.
+Use "div id="content" to set the rest of the background the color you want"
