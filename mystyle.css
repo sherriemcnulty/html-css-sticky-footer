@@ -31,7 +31,6 @@ pre {
 #intro {
 	float: left;
 	max-width: 65%;
-	margin-left: 1%;
 }
 #contact {
 	float: right;
@@ -46,4 +45,13 @@ pre {
 	color: white;
 	bottom: 0;
 	position: sticky;
+}
+
+@media only screen and (max-width: 865px) {
+	#intro {
+		float: none;
+	}
+	#contact {
+		float: none;
+	}
 }
